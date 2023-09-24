@@ -98,8 +98,8 @@ export function Login() {
       </Paper>
       <OtpModal
         open={isTwoFAModalOpen}
-        title="Deactivation of two-factor authentication"
-        description="Use the code to activate two-factor authentication"
+        title="Login verification"
+        description="Use the code to verify your login"
         onSubmit={submitLoginVerification}
       />
     </Container>

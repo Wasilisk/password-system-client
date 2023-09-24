@@ -79,7 +79,6 @@ export function SignUp() {
   };
 
   const onSubmit = async (userData: SignUpFormData) => {
-    console.log("userData", userData);
     let token = captchaRef.current?.getValue();
     if (token) {
       const data = await verifyCaptcha(token);
